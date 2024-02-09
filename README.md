@@ -20,7 +20,7 @@ This is a simple birthday reminder application built using Python for Windows. I
 
 2. Run the `reminder.py` script using Python. Ensure that the path to the `file.txt` is correctly set in the script.
 
-3. The script will check for birthdays occurring today. If there are any birthdays, it will display toast notifications on Windows 10.
+3. The script will check for birthdays occurring today. If there are any birthdays, it will display toast notifications.
 
 ## Running the Application at Startup
 
@@ -29,7 +29,6 @@ To ensure that the birthday reminder application runs automatically at startup:
 1. Press `Win + R` to open the Run dialog.
 2. Type `shell:startup` and press Enter. This will open the Startup folder.
 3. Copy the `reminder.py` script or create a shortcut to it in this folder.
-4. make sure to add the path of `file.txt` to `reminder.py`.
 
 Now, the script will run automatically every time you start your Windows system, and you'll receive birthday reminders via toast notifications.
 
